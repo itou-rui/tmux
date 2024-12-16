@@ -34,6 +34,12 @@ This repository contains a custom tmux configuration with updated key bindings, 
    brew install lazygit
    ```
 
+4. Create and populate the `~/tmux.conf` file:
+
+   ```sh
+   echo "source-file ~/.config/tmux/tmux.conf" > ~/tmux.conf
+   ```
+
 ## Key Bindings
 
 - **Prefix Key**: `C-t` (Control + t)
@@ -55,7 +61,4 @@ This repository contains a custom tmux configuration with updated key bindings, 
 
 This project is licensed under the MIT License.
 
-```
-
 Feel free to customize it further based on your specific needs and preferences!
-```
